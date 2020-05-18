@@ -85,7 +85,7 @@ finalScore(inning, 9) might return:
 function finalScore(callback, number){
 var home = callback();
 var away = callback();
-console.log(home);
+
 for(let i = 0; i < number; i++){
   home = home+ callback();
   away = away + callback();

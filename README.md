@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closures allow inner functions to access variables from a higher scope or a parent scope even after it has been called or closed
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+line 50 because it uses an anonymous function after the return keyword
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the name will always remain Dan as long as you run Dansroll() what could change is the amount on the newRoll variable
 c. What is the lexical scope of `newRoll`? 
+the anonymous function inside personalDice
 
 ### Task 3 - Stretch Goals
 
